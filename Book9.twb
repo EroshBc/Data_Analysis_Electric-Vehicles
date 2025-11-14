@@ -3,7 +3,9 @@
 <!-- build 20242.24.0910.0334                               -->
 <workbook original-version='18.1' source-build='2024.2.3 (20242.24.0910.0334)' source-platform='mac' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
     <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
     <IntuitiveSorting />
     <IntuitiveSorting_SP2 />
     <MapboxVectorStylesAndLayers />
@@ -12,6 +14,7 @@
     <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
     <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
     <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
     <SheetIdentifierTracking />
     <SortTagCleanup />
     <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
@@ -1473,6 +1476,78 @@
       <simple-id uuid='{196176D3-3223-445A-BA1A-260AE041A1CD}' />
     </worksheet>
   </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Tableau Bold' fontsize='22'>ELECTRIC VECHILE DATA ANALYSIS</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='900' maxwidth='1600' minheight='900' minwidth='1600' preset-index='8' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98222' id='8' param='vert' type-v2='layout-flow' w='99000' x='500' y='889'>
+            <zone h='5333' id='10' type-v2='title' w='99000' x='500' y='889'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='92889' id='5' param='vert' type-v2='layout-flow' w='99000' x='500' y='6222'>
+              <zone h='92889' id='6' type-v2='layout-basic' w='99000' x='500' y='6222'>
+                <zone h='92889' id='9' type-v2='layout-basic' w='99000' x='500' y='6222' />
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run fontname='Tableau Bold' fontsize='22'>ELECTRIC VECHILE DATA ANALYSIS</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='12' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='11' param='vert' type-v2='layout-flow' w='99000' x='500' y='889'>
+                <zone h='5333' id='10' type-v2='title' w='99000' x='500' y='889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{278D1662-6BE7-43DA-9C9D-F4E023C0F9A1}' />
+    </dashboard>
+  </dashboards>
   <windows source-height='30'>
     <window class='worksheet' name='Total Vehicles '>
       <cards>
@@ -1708,7 +1783,7 @@
       </viewpoint>
       <simple-id uuid='{58C900FA-B8C0-4C50-9CB4-07252C1F2990}' />
     </window>
-    <window class='worksheet' maximized='true' name='Total vehicles by Models'>
+    <window class='worksheet' name='Total vehicles by Models'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1745,6 +1820,11 @@
         </highlight>
       </viewpoint>
       <simple-id uuid='{75F42E74-7BDD-4636-BF4D-8592751E1B94}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints />
+      <active id='9' />
+      <simple-id uuid='{87549DA4-4EF9-4DDA-9BEF-4092212B15E3}' />
     </window>
   </windows>
   <thumbnails>
@@ -1880,6 +1960,108 @@
       tpEmFfSqajEQZZHq3isaqE2bNkCUqazlQk3po/dZc3x6l5Wdryif1q1bA9UvnW0FYIwxGcUK
       wBhjMooVgDHGZBQPAMYYk1E8ABhjTEbxAGCMMRnFA4AxxmQUDwDGGJNRPAAYY0xG8QBgjDEZ
       xQOAMcZklP8HEttKnbfNUAwAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='384' name='Dashboard 1' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAUwElEQVR4nO3deWwUhd/H8U+3HAItFFqolPsUQTlUWijllEBFUVBRMaLxShBUiBFJ1GCM
+      ohBUVEI9UKh4YLVaD4qAEkDlLGcph600KBQpFLAHhS5t9/mj2bELu73w+OX5vl8JUWfn6kx3
+      3rMzsxjk8Xg8AgCY4/qvVwAA8N8gAABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAA
+      jCIAAGBUvepGSEtLU2Zmpt/XbrvtNl122WX69ttvVVBQoGHDhqlNmza1nt4rPT1dP/74o06d
+      OqWWLVtqyJAh6tWrl1JSUlRcXOx3HlFRURo+fLiWL1+u/Px8Z3jz5s115ZVXqlOnTs6wvLw8
+      rVq1SvXq1dOdd97pM5+cnBytWrVKOTk5CgkJUb9+/TR48GAFBwc74/zwww/Kzc3VlVdeqWuu
+      ucYZXlZWpqSkJHk8HsXHx+vMmTP66aef/K5vXFycOnToUKPlBtqun3/+udxut0aPHq2IiAjt
+      27dPO3fudLaFpL9tn/gbPyQkRD179lS3bt38zmPjxo3as2ePpIr9M3bsWOe1DRs26NChQ36n
+      Cw4O1l133VWj+QSSnJyskydPSpKuvfZaXXfddc5rv/32m37++WdJUufOnTVw4EDnNe82vf32
+      29WwYcMar0Og7bx69WqdOHFCnTp1UmxsrDPc7XYrOTlZHo9HY8aMUfPmzfXHH3/4/A507dpV
+      Q4cOVUhIiCTp008/VVlZmeLj4xUeHi5JOnPmjFatWqXMzEwFBwerXbt2GjZsmC6//PJqtxHg
+      VW0AfvjhB33xxRd+Xxs9erQuu+wyffDBBzp06JBat2590cGmJtOXlZXppZde0tdff+132kWL
+      Fun48eN+5xEbG6vhw4crMTHR74Hlxhtv1KxZsxQcHKxjx45p/vz5atCggU8AvvzyS82bN0/n
+      z593hn388cdauXKlIiIinGH79u3T0qVLFR0drYSEBGf4gQMH9Nprr6l+/foaP368tm/frvnz
+      5/td34iICCcA1S030HZduHChioqKdPXVVysiIkJpaWlasGCBBg4c6ATgUvdJTcaPjo7Wiy++
+      qBYtWvgMf+edd7R3715JUpMmTRQfH6/69etLklauXKnvvvvO77IbNmzoE4Cq5uNPUVGRXnnl
+      FZWWlkqS9u7d6xOAX375xdkvzZs31/Lly52DfUJCggoLC3XTTTf5BKC6dQi0nc+dO6f58+cr
+      JCREX3/9tZo1ayZJ+uqrr/Taa6+pe/fumjhxojZv3qwnn3xS586d8/lZ+vTpo/fff1+StGDB
+      ApWUlKh3794KDw9Xbm6uHn74YR09etRnmldffVUbNmxQgwYNAm4joLJqA+DVr18/xcTE+Axr
+      3LhxjRdU1fQffvihc/C/+eab1adPH+Xk5Cg9PV2SNGHCBBUVFen06dP65ptvJEn33XefJPmc
+      4UvSqFGj1L59e2VlZWn9+vVKTU1VTEyMxowZ43e9du/erZdfflkej0fXXnut4uPjVVBQoNWr
+      V180blxcnJYuXapdu3bp3LlzzoFyy5YtkirOOCtvk8jISI0fP95nHl27dq31cv8ptd2nPXr0
+      UP/+/ZWTk6P169dr69ateuKJJ7R48WK5XBVXE0+dOqV9+/YpLCxMLVq0UHZ2tnbv3u0ciAcP
+      HqxWrVpJkpYtWya32634+HhFRkb6HLiqm48/W7ZsUWlpqfr27av09HRt377dZz9Vdvr0aaWm
+      purWW28NOL+6rIPXTTfdpGXLlikrK0uJiYmaNm2aSkpKtGTJEknS448/LpfLpblz5+rcuXMa
+      MWKEhgwZolOnTmnLli06e/ZswHkvWrRIR48eVffu3XXHHXeopKREGRkZWrt2bbXrBVRW4wD0
+      6dNHDz30UJ0XFGj60tJSLV26VJJ077336vHHH3de8/5Fpffff78kKSsrS998841cLpcee+wx
+      v8sZOXKkRowYIUmaMWOG1q5dq127dgUMQGJiojwej3r37q2EhATnks+999570bi9e/dWaGio
+      CgsLtXv3bufg6Q1AXFycz/itWrUKuM1qs9x/Sm33aZ8+fTRt2jRJFT/z1KlTlZGRoQ0bNmjw
+      4MGSKi6ZeDweRUdHq3Xr1srOztbGjRudg+aoUaM0atQoSVJKSorcbrduu+029evXz2dZ1c3H
+      H+/lnRtuuEGlpaXKyMjQ9u3bNWjQIJ/xoqKidPToUX388ccaN26cE68L1WUdvFwul6ZPn66p
+      U6fqs88+08SJE7VmzRqdOHFCMTExGjBggMrKynTkyBFJ0uTJk9W5c2dJFb8Df/75Z8B5//77
+      75Kk8ePHa9y4cZKkO++8U/n5+VV+QgIuVOObwHl5edq/f7/z59dff63VggJNn5mZqYKCArlc
+      Lues3isoKKhWy7iQ980Q6A3u8Xi0bds2SRVvusrX+4OCgi5afr169Zzrxt6D/tmzZ51PKhcG
+      oLi42Odn3r9/v9xud62Xe+jQIaWnpzt/ysrKarchAriUfRoTE+McCL0/i1Rxjd/7enR0tM+w
+      2qjtfMrLy7Vx48YaTdOzZ0/17dvX557A37EOF4qJiVFsbKxKSkq0cOFCJSYmKigoyDnJ8V67
+      l6SpU6dq8eLFzmWdsLCwgPP1XkJ8/fXXNW/ePGVkZMjj8ahZs2aX/J6BLTX+BLB8+XItX77c
+      +e9GjRoFvNFZm+nz8vIkSS1btnSuk16K7du3q6ioSBkZGfr+++8lyedmX2XFxcXOR23vpZnq
+      xMXFafXq1U4AduzYofPnz6tjx45q27atz7gHDx7UpEmTfIYtXbpUHTp0qNVyK99v+Dtd6j7t
+      0qWLtm3b5tx0LS0t1aZNmyRJAwYMULNmzdSgQQMdPHhQx44dq/ENyrrM58CBAzp58qTatm2r
+      tm3bKjo6WosXL3aicKFJkyZp165d+vDDDzVkyJC/ZR38mTZtmjZv3qzU1FRJFfekrrjiCuf1
+      GTNmaObMmTpx4oQSEhL01ltvaejQoZo5c6Zatmzpd54PPfSQtm7dqpycHCUlJSkpKUndunXT
+      M888o6uuuqpG6wVItQhAx44dfQ5Wtb3RFGh67z+Li4vl8Xgu+QwmKSnJ+XeXy6V77rnH7xu8
+      8rK9y6+J2NhYuVwuZWZm6vTp0wEv/0hSs2bN1L9/f59hTZs2rfVyO3bs6BPHPXv2qLy8vEbr
+      W918L2WfetfdO93u3btVVFSk8PBwHT58WIcPH1bbtm2dSydVXW+vrC7z8Z7Jt2vXTtu2bZPb
+      7ZbL5dKRI0f022+/+Tx5JVXci+jQoYN27tzp3OS91HXwp0uXLrrllluUkpKiBg0a6JFHHvF5
+      feDAgfr888/15ZdfavXq1Tp8+LDWrVunI0eOaNmyZX7fD5GRkVq2bJlSU1O1YsUKZWRkKCsr
+      S5MnT1ZycjJPAqHGahyAYcOG6dFHH63zggJN773uWVhYqJ07d/o8XlkXsbGxOnjwoHJzc9Wr
+      Vy9NmTIlYFTq16+vdu3a6fDhw1q/fr26d+9e7fzDwsJ01VVXKT09XWlpaVUGoH379pozZ47f
+      +dRmuVOmTHHua0gV27KoqKjada3OpexTt9utrVu3SvrrRrz3IHzy5ElNnjzZZ/wNGzbU+KBZ
+      l/l4p9m0aZNz5l55mgsD4D05mD17tj766KO/ZR0CiYmJUUpKitq0aeP34BwZGalHHnlEkydP
+      1rp16zRjxgz9+uuvOnLkiHOJ6EKNGzfWhAkTNGHCBGVnZ2vKlCnKy8vT5s2bnfsCQHX+8y+C
+      tWrVyjnoz5s3TydOnJBUcYCp6vpsIOPGjdMbb7yhkJAQ7dmzRy+88IKq+r9exsfHS5I++ugj
+      51q+x+PRli1bAp6dew/2K1as0MGDBxUSEqK+ffvWaj3rstz/BR6PR8eOHdPzzz+v3NxcBQcH
+      a+TIkZL+uj4eFxensWPHauzYsc5raWlpPo+7VqW28zl58qT2798vl8vljD927FhnnwS6DDRm
+      zBi1aNFCa9asuWib/10/S1UKCws1a9Ys595LUFCQevTo4dwTCnTvas6cOdq0aZPzKbBNmzbO
+      J8RA0wD+1PgTwCeffHLRs+DJycnOF1Mk6amnnnLOtnv16qXExMQaTT9jxgw9+OCDysrK0s03
+      36x27drp+PHjCgsL83tmXZ2uXbtq7ty5mjZtmlasWKHIyEhNnTrV77iTJk3SmjVrlJ2drQce
+      eEDt27dXcXGx8vLylJqa6vexyLi4OCUkJDiBGjBggOrVu3hT7t2713ku3+vZZ5/V9ddfX6fl
+      1kVd94k/SUlJ+uyzz3yCOn36dLVu3VpHjx5Vdna2goODNXv2bDVp0kRSxc3ZtLQ05efna+fO
+      nc7N1EDqMh/v0zq9evXSc8895wzPzMzU3XffrR07dvh9rLJhw4a644479Pbbb1/yOlS1nQMp
+      Ly/XihUrnN/RsLAwHTp0SGVlZerZs6eioqL8Trdr1y4lJyeradOmioqK0h9//KH8/Hw1btzY
+      50tnQHVqfLrgdrtVWFjo88ffmbXH4/E7vKrpu3Xrpvfee0/XXHONzp8/r+zsbJ05c8bnZpn0
+      11NBNblPEBMTo6efflqStGTJEqWkpPidrnHjxnr33Xc1ZswY1a9fX7///rvy8vLUoUMHv8+P
+      e9fX+yy7pIseM/QqLy+/6Gf2fkmpLssNpLrtUZd9UtW8QkNDNWDAAC1YsEATJ06U9NdZ9tVX
+      X+0cMKWKM1LvfZDNmzf7Xe/K61+X+VR++qeybt26qUWLFnK73dqxY8dFy5UqvmNSeXsHBQXV
+      aR2826aq7XfhfmrUqJFuvfVWhYaGKjc3V7/88ovcbrcGDRqkV155JeDv+y233KKoqCgVFBTo
+      wIEDys/PV9euXfXmm2/6fHERqE6Qp7p3/L8sPz9fp0+fVnh4uEJDQ//VZZ89e1bHjx9XkyZN
+      FB4eXuWB9ezZs87jmI0aNfJ5lPOfXC7+/ykvL1dubq5KSkoUERHh/BUQ1Tl16pQKCgoUGhoa
+      8FMbUJX/uQAAAP4d3DECAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgA
+      ABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACA
+      UQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhF
+      AADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQA
+      AIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADA
+      KAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwi
+      AABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIA
+      AEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABg
+      FAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYR
+      AAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEA
+      AKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAw
+      igAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMI
+      AAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAA
+      gFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAY
+      RQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEE
+      AACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAA
+      wCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEEAACM
+      IgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgC
+      AABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAA
+      YBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABG
+      EQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQB
+      AACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAA
+      MIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACj
+      CAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoA
+      AIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAA
+      GEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBR
+      BAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUA
+      AMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAA
+      jCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAo
+      AgAARhEAADCKAACAUQQAAIwiAABg1P8BC/ZqVBNMHSkAAAAASUVORK5CYII=
     </thumbnail>
     <thumbnail height='384' name='Top 10 Vehicles by Make' width='384'>
       iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
