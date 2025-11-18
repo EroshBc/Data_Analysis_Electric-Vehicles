@@ -23,4 +23,5 @@ The focus is on building a complete dashboard that answers critical business que
 - Excel/CSV for Data source
 - Github for version Control
 
-
+### Dashboard preview
+https://public.tableau.com/app/profile/erosh.boralugodage/viz/DataAnalysis-ElectricVehiile/Dashboard1
