@@ -8,6 +8,6 @@ This project follows a real-world analytics workflow and is based on the tutoria
 The focus is on building a complete dashboard that answers critical business questions and showcases strong data visualization skills.
 
 ### Dataset
-Dataset: Electric Vehicle Population data 
-Source : Kagle - https://www.kaggle.com/datasets/ratikkakkar/electric-vehicle-population-data
+- Dataset: Electric Vehicle Population data 
+- Source : Kagle - https://www.kaggle.com/datasets/ratikkakkar/electric-vehicle-population-data
   
