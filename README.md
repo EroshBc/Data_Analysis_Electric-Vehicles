@@ -18,4 +18,9 @@ The focus is on building a complete dashboard that answers critical business que
   -  Customer
   -  Order details
 
-  
+### Tools and Technologies
+- Tableau Desktop
+- Excel/CSV for Data source
+- Github for version Control
+
+
