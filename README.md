@@ -9,7 +9,5 @@ The focus is on building a complete dashboard that answers critical business que
 
 ### Dataset
 Dataset: Electric Vehicle Population data 
-Source : Kagle - https://www.kaggle.com/datasets/ratikkakkar/electric-vehicle-population-data
-Records Include: Sales, Profit, Category & Sub-Category, State/Region, Customer, Order details
   
   
