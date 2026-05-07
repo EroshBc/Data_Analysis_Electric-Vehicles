@@ -24,6 +24,9 @@ The focus is on building a complete dashboard that answers critical business que
 - Github for version Control
 
 ### Dashboard preview
-https://public.tableau.com/app/profile/erosh.boralugodage/viz/DataAnalysis-ElectricVehiile/Dashboard1<br>
-![Alt Text](https://github.com/EroshBc/Data_Analysis_Electric-Vehicles/blob/main/Dashboard%201.png)
+
+# Project Title
+[![Dashboard Preview](./EV-Dashboard.png)]
+*Click the image above to view the interactive dashboard.*
+
 
