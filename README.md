@@ -25,7 +25,8 @@ The focus is on building a complete dashboard that answers critical business que
 
 ### Dashboard preview
 
-# Project Title
+# EV- Dash Board
+
 [![Dashboard Preview](./EV-Dashboard.png)](https://public.tableau.com/shared/XKFT9YSQG?:display_count=n&:origin=viz_share_link)
 *Click the image above to view the interactive dashboard.*
 
